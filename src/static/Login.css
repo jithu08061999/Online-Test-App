@@ -1,0 +1,162 @@
+/* Login.css */
+
+.body-html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.login-image {
+    flex: 1;
+    background-image: url('https://s3-alpha-sig.figma.com/img/8dba/3a0f/e3f2015a28fd67e5c45bae82056037bb?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FOBwRRgULiH3OxKyRjVZFuyFwZzUJC5D7hOqD0venJpVwpsA-hGD7XQvCWgeaNi7FVIOnyFh1HM3HOGd89WeVx9-Gm3iOKbJbft5CTukfSJkGfNAy6luaDHHR6RgFuoLZb8bTzqJFX0m7JQsGWJFfd32-9X4p3uI0MEOrXIcc4L2erBWNNmGn3l5Xy-TdcvgmMiG~ivp0alAdG8WuzMPWgoZ5ckm3KZMFtz21gvTiJV4Jv23PXtVFNT16ipy60kydK4T7eej3VPj7RlvdoXwGOnp48m5x5Vg7JyJwxp7eqIM~mObLqxCTH48TE6zgEFFvrNPkfWlmGE6NdU7pDbZmQ__');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.logo-overlay {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center; 
+}
+
+.logo {
+    width: 80px; 
+    height: auto;
+    filter: brightness(1.5); 
+    margin-right: 5px;
+    margin-top: -32px;
+}
+
+.logo-text {
+    color: #ffffff; 
+    font-family: Verdana, sans-serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-top-text {
+    font-size: 32px; 
+    font-weight: bold;
+    margin-bottom: -20px; 
+}
+
+.logo-bottom-text {
+    font-size: 52px; 
+    font-weight: bold;
+}
+
+.login-form-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+
+.login-form {
+    width: 500px;
+    padding: 60px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.login-form h2 {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.229);
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.btn-block {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.sign-up-link {
+    text-align: center;
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.select-dropdown {
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.259);
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: #f9f9f9;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.select-dropdown:focus {
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+.select-dropdown option {
+    padding: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.select-dropdown option:hover {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.select-dropdown option:checked {
+    background-color: #f9f9f9;
+    color: #666;
+}
+
+.select-dropdown option:checked:hover {
+    background-color: #f2f2f2;
+    color: #333;
+}

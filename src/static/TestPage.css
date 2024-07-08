@@ -1,0 +1,149 @@
+.test-page {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 100%; 
+}
+
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; 
+}
+
+.question-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding: 20px;
+  text-align: left;
+  min-height: 500px;
+}
+
+.question-count {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: -120px;
+}
+
+.question-text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: -96px; 
+}
+
+.options {
+  margin-top: 10px;
+  padding-left: 0;
+  text-align: left;
+
+}
+
+.option {
+  font-size: 16px;
+  margin-bottom: 20px; 
+  margin-left: 0;
+}
+
+.option input[type='radio'] {
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  margin-right: 10px;
+}
+
+.option input[type='radio']:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.notepad-section {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: 10px; 
+}
+
+.navigation-buttons {
+  margin-top: -56px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.navigation-buttons .btn {
+  min-width: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.navigation-buttons .btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: white;
+}
+
+.navigation-buttons .btn-secondary {
+  background-color: white;
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.custom-modal .modal-dialog {
+  max-width: 600px; 
+}
+
+.custom-modal .modal-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.custom-modal .modal-body .warning-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.custom-modal .modal-body .warning-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.custom-modal .modal-body div {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.custom-modal .modal-footer {
+  display: flex;
+  justify-content: center;
+  border-top: none;
+  padding: 15px;
+}
+
+.custom-modal .modal-footer .btn {
+  min-width: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
